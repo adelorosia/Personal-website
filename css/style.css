@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@100;400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    padding: 30px;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.font-mochiy{
+    font-family: 'Mochiy Pop One';
+}
+
+.menu-title{
+    margin-bottom: 15px;
+    letter-spacing: 7px;
+    color: rgba(8, 54, 56, 0.993);
+}
+
+.items-center{
+    align-items: center;
+}
+
+.btn{
+    all: unset;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.desc{
+    line-height: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.section-title{
+    font-family: 'Mochiy Pop One';
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.team-card{
+    box-shadow: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.team-card:hover{
+    transform: scale(1.05);
+}
+
+.team-card-name{
+    color: #012970;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.team-card-job{
+    color: #a3a4a4;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.team-card-desc{
+    color: rgb(100, 100, 100);
+    padding: 20px 20px 30px;
+    text-align: justify;
+}
